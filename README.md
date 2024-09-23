@@ -1,2 +1,2 @@
-# ai-deliveryman
-This is the repository for the first assignment in Artificial Intelligence (1DL340) course, taken at Uppsala university.
+# Artificial Intelligence - 1DL340
+Code for the Delivery Man project in the Uppsala University AI course.
