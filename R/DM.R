@@ -126,6 +126,11 @@ tracePath = function(node, set) {
   return (child)
 }
 
+#' isOutOfBounds
+#'
+#' Checks if a node is out of bounds to the board or not.
+#' @param nodePosition Position of node which is a vector with x and y coordinate.
+#' @return True if the node is inside the board, otherwise False
 isOutOfBounds = function(nodePosition) {
   if (nodePosition[1] < 11 & nodePosition[1] > 0 & nodePosition[2] < 11 & nodePosition[2] > 0) {
     return (TRUE)
